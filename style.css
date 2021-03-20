@@ -1,5 +1,5 @@
 :root{
-    background-color: #bbf8dc;
+    background-color: #d9f8e9;
     font-size: 62.5%;
     
 }
@@ -51,6 +51,7 @@ h3{
     align-items: center ;
     max-width: 80rem;
     margin: 0 auto;
+    padding: 5rem;
 }
 .container > * {
     width: 100%;
@@ -82,7 +83,7 @@ h3{
     border: 0.1rem solid #128a52;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #128a52;
+    color: #059451;
     background-color: #ffff;
     border-radius: 1rem;
 }
