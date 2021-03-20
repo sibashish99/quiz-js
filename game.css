@@ -5,6 +5,7 @@
     max-width: 100%;
     border: 0.1rem solid rgba(164, 222, 255, 0.25);
     background-color: white;
+    border-radius: 3rem;
 }
 .choice-container:hover{
     cursor: pointer;
@@ -19,7 +20,15 @@
     padding: 1.5rem 2.5rem;
     background-color: #0CB968;
     color: white;
+    border-radius: 3rem;
 }
 .choice-text{
     padding: 1.5rem ;
+    width: 100%;
+}
+.correct{
+    background-color: #97f3c8;
+}
+.incorrect{
+    background-color: rgb(238, 153, 153);
 }
