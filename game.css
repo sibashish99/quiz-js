@@ -1,4 +1,3 @@
-
 .choice-container{
     display: flex;
     margin-bottom: 0.5rem;
@@ -57,3 +56,22 @@
    background-color: #0CB968;
    width: 0%;
 }
+
+/* LOADER */
+#loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #0CB968;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
