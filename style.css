@@ -97,11 +97,11 @@ h3{
     transform: translateY(0.5rem);
     transition: transform 1000ms;
 }
-.btn[disabled]:hover{
+.btn[disabled]:hover {
     cursor: not-allowed;
-    box-shadow : none;
+    box-shadow: none;
     transform: none;
-}
+  }
 
 form{
     width: 100%;
